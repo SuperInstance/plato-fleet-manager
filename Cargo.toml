@@ -1,0 +1,18 @@
+[package]
+name = "plato-fleet-manager"
+version = "0.1.0"
+edition = "2021"
+description = "Fleet orchestration for Plato room engine blocks across devices"
+license = "MIT"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "1"
+tracing = "0.1"
+async-trait = "0.1"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["test-util", "macros"] }
