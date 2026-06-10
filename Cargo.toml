@@ -1,4 +1,5 @@
 [package]
+repository = "https://github.com/SuperInstance/plato-fleet-manager"
 name = "plato-fleet-manager"
 version = "0.1.0"
 edition = "2021"
